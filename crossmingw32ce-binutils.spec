@@ -1,11 +1,11 @@
 # TODO
 # - copy (get inspired) descriptions from http://cegcc.sourceforge.net/
-Summary:	Cross Mingw32 GNU binary utility development utilities - binutils
-Summary(es):	Utilitarios para desarrollo de binarios de la GNU - Mingw32 binutils
-Summary(fr):	Utilitaires de développement binaire de GNU - Mingw32 binutils
-Summary(pl):	Skro¶ne narzêdzia programistyczne GNU dla Mingw32 - binutils
-Summary(pt_BR):	Utilitários para desenvolvimento de binários da GNU - Mingw32 binutils
-Summary(tr):	GNU geliþtirme araçlarý - Mingw32 binutils
+Summary:	Cross Mingw32CE GNU binary utility development utilities - binutils
+Summary(es):	Utilitarios para desarrollo de binarios de la GNU - Mingw32CE binutils
+Summary(fr):	Utilitaires de développement binaire de GNU - Mingw32CE binutils
+Summary(pl):	Skro¶ne narzêdzia programistyczne GNU dla Mingw32CE - binutils
+Summary(pt_BR):	Utilitários para desenvolvimento de binários da GNU - Mingw32CE binutils
+Summary(tr):	GNU geliþtirme araçlarý - Mingw32CE binutils
 Name:		crossmingw32ce-binutils
 Version:	2.17.50.0.8
 Release:	1
@@ -28,22 +28,22 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 crossmingw32ce is a complete cross-compiling development system for
-building stand-alone Microsoft Windows applications under Linux using
-the Mingw32 build libraries. This includes a binutils, gcc with g++
-and objc, and libstdc++, all cross targeted to i386-mingw32, along
-with supporting Win32 libraries in 'coff' format from free sources.
-
+building stand-alone Microsoft Windows CE applications under Linux
+using the Mingw32CE build libraries. This includes a binutils, gcc
+with g++ and objc, and libstdc++, all cross targeted to
+i386-mingw32ce, along with supporting Win32 CE libraries in 'coff'
+format from free sources.
 
 This package contains cross targeted binutils.
 
 %description -l pl
 crossmingw32ce jest kompletnym systemem do kroskompilacji, pozwalaj±cym
-budowaæ aplikacje MS Windows pod Linuksem u¿ywaj±c bibliotek mingw32.
-System sk³ada siê z binutils, gcc z g++ i objc, libstdc++ - wszystkie
-generuj±ce kod dla platformy i386-mingw32, oraz z bibliotek w formacie
-COFF.
+budowaæ aplikacje MS Windows CE pod Linuksem u¿ywaj±c bibliotek
+mingw32ce. System sk³ada siê z binutils, gcc z g++ i objc, libstdc++ -
+wszystkie generuj±ce kod dla platformy i386-mingw32ce, oraz z bibliotek
+w formacie COFF.
 
-Ten pakiet zawiera binutils generuj±ce skro¶nie binaria dla Win32.
+Ten pakiet zawiera binutils generuj±ce skro¶nie binaria dla Win32 CE.
 
 %prep
 %setup -q -n binutils-%{version}
