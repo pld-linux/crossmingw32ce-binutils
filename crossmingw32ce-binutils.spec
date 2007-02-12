@@ -1,11 +1,11 @@
 # TODO
 # - copy (get inspired) descriptions from http://cegcc.sourceforge.net/
 Summary:	Cross Mingw32CE GNU binary utility development utilities - binutils
-Summary(es.UTF-8):   Utilitarios para desarrollo de binarios de la GNU - Mingw32CE binutils
-Summary(fr.UTF-8):   Utilitaires de développement binaire de GNU - Mingw32CE binutils
-Summary(pl.UTF-8):   Skrośne narzędzia programistyczne GNU dla Mingw32CE - binutils
-Summary(pt_BR.UTF-8):   Utilitários para desenvolvimento de binários da GNU - Mingw32CE binutils
-Summary(tr.UTF-8):   GNU geliştirme araçları - Mingw32CE binutils
+Summary(es.UTF-8):	Utilitarios para desarrollo de binarios de la GNU - Mingw32CE binutils
+Summary(fr.UTF-8):	Utilitaires de développement binaire de GNU - Mingw32CE binutils
+Summary(pl.UTF-8):	Skrośne narzędzia programistyczne GNU dla Mingw32CE - binutils
+Summary(pt_BR.UTF-8):	Utilitários para desenvolvimento de binários da GNU - Mingw32CE binutils
+Summary(tr.UTF-8):	GNU geliştirme araçları - Mingw32CE binutils
 Name:		crossmingw32ce-binutils
 Version:	2.17.50.0.8
 Release:	1
