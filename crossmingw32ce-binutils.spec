@@ -1,11 +1,11 @@
 # TODO
 # - copy (get inspired) descriptions from http://cegcc.sourceforge.net/
 Summary:	Cross Mingw32CE GNU binary utility development utilities - binutils
-Summary(es):	Utilitarios para desarrollo de binarios de la GNU - Mingw32CE binutils
-Summary(fr):	Utilitaires de développement binaire de GNU - Mingw32CE binutils
-Summary(pl):	Skro¶ne narzêdzia programistyczne GNU dla Mingw32CE - binutils
-Summary(pt_BR):	Utilitários para desenvolvimento de binários da GNU - Mingw32CE binutils
-Summary(tr):	GNU geliþtirme araçlarý - Mingw32CE binutils
+Summary(es.UTF-8):   Utilitarios para desarrollo de binarios de la GNU - Mingw32CE binutils
+Summary(fr.UTF-8):   Utilitaires de dÃ©veloppement binaire de GNU - Mingw32CE binutils
+Summary(pl.UTF-8):   SkroÅ›ne narzÄ™dzia programistyczne GNU dla Mingw32CE - binutils
+Summary(pt_BR.UTF-8):   UtilitÃ¡rios para desenvolvimento de binÃ¡rios da GNU - Mingw32CE binutils
+Summary(tr.UTF-8):   GNU geliÅŸtirme araÃ§larÄ± - Mingw32CE binutils
 Name:		crossmingw32ce-binutils
 Version:	2.17.50.0.8
 Release:	1
@@ -36,14 +36,14 @@ format from free sources.
 
 This package contains cross targeted binutils.
 
-%description -l pl
-crossmingw32ce jest kompletnym systemem do kroskompilacji, pozwalaj±cym
-budowaæ aplikacje MS Windows CE pod Linuksem u¿ywaj±c bibliotek
-mingw32ce. System sk³ada siê z binutils, gcc z g++ i objc, libstdc++ -
-wszystkie generuj±ce kod dla platformy i386-mingw32ce, oraz z bibliotek
+%description -l pl.UTF-8
+crossmingw32ce jest kompletnym systemem do kroskompilacji, pozwalajÄ…cym
+budowaÄ‡ aplikacje MS Windows CE pod Linuksem uÅ¼ywajÄ…c bibliotek
+mingw32ce. System skÅ‚ada siÄ™ z binutils, gcc z g++ i objc, libstdc++ -
+wszystkie generujÄ…ce kod dla platformy i386-mingw32ce, oraz z bibliotek
 w formacie COFF.
 
-Ten pakiet zawiera binutils generuj±ce skro¶nie binaria dla Win32 CE.
+Ten pakiet zawiera binutils generujÄ…ce skroÅ›nie binaria dla Win32 CE.
 
 %prep
 %setup -q -n binutils-%{version}
