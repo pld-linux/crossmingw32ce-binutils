@@ -1,0 +1,2 @@
+- based on crossmingw32-binutils.spec, compiles but right now probably just
+  creates mingw32 programs
