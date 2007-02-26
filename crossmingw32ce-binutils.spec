@@ -1,5 +1,3 @@
-# TODO
-# - copy (get inspired) descriptions from http://cegcc.sourceforge.net/
 Summary:	Cross Mingw32CE GNU binary utility development utilities - binutils
 Summary(es.UTF-8):	Utilitarios para desarrollo de binarios de la GNU - Mingw32CE binutils
 Summary(fr.UTF-8):	Utilitaires de développement binaire de GNU - Mingw32CE binutils
@@ -7,12 +5,14 @@ Summary(pl.UTF-8):	Skrośne narzędzia programistyczne GNU dla Mingw32CE - binut
 Summary(pt_BR.UTF-8):	Utilitários para desenvolvimento de binários da GNU - Mingw32CE binutils
 Summary(tr.UTF-8):	GNU geliştirme araçları - Mingw32CE binutils
 Name:		crossmingw32ce-binutils
-Version:	2.17.50.0.8
-Release:	1
+Version:	2.17.50
+Release:	0.1
 License:	GPL
 Group:		Development/Tools
-Source0:	ftp://ftp.kernel.org/pub/linux/devel/binutils/binutils-%{version}.tar.bz2
-# Source0-md5:	1441fe6fa44b344d0575cb66d3f89252
+#Source0:	ftp://ftp.kernel.org/pub/linux/devel/binutils/binutils-%{version}.tar.bz2
+# https://cegcc.svn.sourceforge.net/svnroot/cegcc/trunk/cegcc/src/binutils
+Source0:	binutils-20070226.907.tar.bz2
+# Source0-md5:	cf3b51a289913f1e2052dc5165fe8f60
 URL:		http://sources.redhat.com/binutils/
 BuildRequires:	automake
 BuildRequires:	bash
@@ -23,7 +23,7 @@ BuildRequires:	gettext-devel
 #BuildRequires:	texinfo >= 4.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		target		i386-mingw32ce
+%define		target		arm-wince-mingw32ce
 %define		arch		%{_prefix}/%{target}
 
 %description
@@ -46,7 +46,7 @@ w formacie COFF.
 Ten pakiet zawiera binutils generujące skrośnie binaria dla Win32 CE.
 
 %prep
-%setup -q -n binutils-%{version}
+%setup -q -n binutils
 
 %build
 cp /usr/share/automake/config.sub .
